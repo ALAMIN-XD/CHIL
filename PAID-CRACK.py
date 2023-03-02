@@ -18,7 +18,7 @@ except ImportError:
 	print('\n [×] Bs4 module not installed!...\n')
 	os.system('pip install bs4')
 	try:
-    import requests
+         import requests
 except ImportError:
     print('\n [✓] installing requests !...\n')
     os.system('pip install requests')
